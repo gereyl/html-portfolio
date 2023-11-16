@@ -1,5 +1,7 @@
 *{text-align: center;}
 
+*{background-color: #5d3891;} /*hexa koddal beallitott hatter*/
+
 img {height: 200px; width: 200px;}
 
 .color-title {font-weight: normal;}
