@@ -1,8 +1,37 @@
-*{background-color: blue;}
+*{background-color:#35374B;}
 
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the child elements */
+    align-items: center; /* Vertically center the child elements */
+    height:40pt /* Set container height to 100% of viewport height */
+}
 
-h1 {font-size: 30px; text-align: center; background-color: blueviolet;}
+h1 {font-size: 30px; text-align: center; background-color: #78A083; width: 250pt;}
 
 /*h3 {font-size: 20px; background-color: antiquewhite;}*/
 
-a {color: aquamarine;}
+a {color: #78A083; text-align: center;}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: space-between; /* Distribute items along the main axis with equal space between them */
+    max-width: 1000px; /* Set a maximum width for the container if needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+
+.btn-primaryleft,
+.btn-primaryright {
+    height: 75pt; /* Set the height to 75 points */
+    width: 150pt; /* Set the width to 100 points */
+    /* Add any other styles you want for your buttons */
+    background-color: #50727B; /* Example background color */
+    color: white; /* Example text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius */
+    font-size: 16px; /* Example font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-bottom: 10px; /* Add margin between buttons */
+}
