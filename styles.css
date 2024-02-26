@@ -1,17 +1,21 @@
-*{background-color:#35374B;}
+*{background-color:#FEECE2;}
 
 .container {
     display: flex; /* Use flexbox */
     justify-content: center; /* Horizontally center the child elements */
     align-items: center; /* Vertically center the child elements */
-    height:40pt /* Set container height to 100% of viewport height */
+    height:30pt; /* Set container height to 100% of viewport height */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 15pt;
 }
 
-h1 {font-size: 30px; text-align: center; background-color: #78A083; width: 250pt;}
+h1 {font-size: 30px; text-align: center; background-color: #FFBE98; width: 350pt;}
 
-/*h3 {font-size: 20px; background-color: antiquewhite;}*/
 
-a {color: #78A083; text-align: center;}
+a {color: black; text-align: center;}
 
 .button-container {
     display: flex;
@@ -27,11 +31,10 @@ a {color: #78A083; text-align: center;}
     height: 75pt; /* Set the height to 75 points */
     width: 150pt; /* Set the width to 100 points */
     /* Add any other styles you want for your buttons */
-    background-color: #50727B; /* Example background color */
-    color: white; /* Example text color */
-    border: none; /* Remove button border */
+    background-color: #e2bfb3; /* Example background color */
     border-radius: 5px; /* Add some border radius */
-    font-size: 16px; /* Example font size */
+    font-size: 20px; /* Example font size */
+    font-weight: bolder;
     cursor: pointer; /* Change cursor to pointer on hover */
     margin-bottom: 10px; /* Add margin between buttons */
 }
