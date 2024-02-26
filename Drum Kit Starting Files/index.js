@@ -1,6 +1,6 @@
 var numberOfButtons = document.querySelectorAll(".drum").lenght;
 for (var i = 0; i < numberOfButtons; i++){
-    document.querySelector(".drum")[i].addEventListener("click", function () {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         this.style.color = "white";
     });
 }
