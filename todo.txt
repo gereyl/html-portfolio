@@ -1,1 +1,4 @@
 npm i nodemon
+
+
+ejs language support bovitmenyt hozzaadni
