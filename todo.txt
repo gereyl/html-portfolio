@@ -1,4 +1,5 @@
 npm i nodemon
 
+nodemon filename.js
 
 ejs language support bovitmenyt hozzaadni
