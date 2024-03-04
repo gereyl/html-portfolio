@@ -1,0 +1,3 @@
+postgre SQL
+pgAdmin telepites
+tabla letrehozasa
